@@ -1,0 +1,13 @@
+#!/bin/bash
+
+## #ddev-generated
+## Description: Reinstala el sitio.
+## Usage: reset
+## Example: ddev reset
+
+ddev . rm -rf /var/www/html/web/sites/default/files
+ddev drush site:install -y
+ddev drush user:password admin admin
+
+uli=$(ddev drush uli)
+ddev launch ${uli:28}
