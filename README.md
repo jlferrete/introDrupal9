@@ -7,7 +7,7 @@ https://www.youtube.com/watch?v=nmOj4AznfsY
 https://view.genial.ly/63539ea344e22a0019d431c7
 
 
-##Pasos
+## Pasos
 
 Instalar VirtualBox
 Descargar maquina virtual .ova https://drive.google.com/drive/folders/1UzQjgO_4nC4ZZX7f8xt1KlZ-6PmzxiSq
